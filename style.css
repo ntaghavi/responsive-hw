@@ -112,3 +112,25 @@ p {
   padding: 10px;
   margin: 10px;
 }
+@media (max-width: 576px) {
+  .port-text,
+  .pt-p {
+    text-align: center;
+  }
+  .port-button {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+  .port-img {
+    display: block;
+  }
+  #about-me {
+    font-size: 60px;
+  }
+}
+@media (min-width: 576px) {
+  .pt-p {
+    text-align: left;
+  }
+}
